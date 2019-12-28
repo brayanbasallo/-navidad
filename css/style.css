@@ -4,10 +4,11 @@ body {
 }
 
 .container {
+    text-align: center;
     background-color: brown;
     width: 100vw;
     height: 100vh;
-    display: flex;
+    display: block;
 }
 
 #tablero {

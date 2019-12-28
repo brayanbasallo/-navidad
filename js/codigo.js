@@ -75,7 +75,7 @@ function numeroAleratorio(condicion) {
     return salida;
 }
 crearArreglo();
-/* setInterval(() => {
+setInterval(() => {
     tablero.innerHTML = "";
 }, 1000);
-setInterval(crearArreglo, 1000) */
+setInterval(crearArreglo, 1000) 
