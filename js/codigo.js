@@ -41,7 +41,7 @@ function imprimirArreglo() {
         }
         tablero.innerHTML += "<br>";
     }
-    console.log("aqui");
+    /* console.log("aqui"); */
     arregloNav = [];
 }
 
