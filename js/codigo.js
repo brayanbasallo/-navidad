@@ -14,6 +14,7 @@ function crearArreglo() {
     arregloNav.push(["*", "*", "*", "*", "*", "*", "*", "*"]);
     arregloNav.push(["|","|"])
     arregloNav.push(["|","|"])
+    tablero.innerHTML = "";
 
     imprimirArreglo();
 }
@@ -76,7 +77,7 @@ function numeroAleratorio(condicion) {
     return salida;
 }
 crearArreglo();
-setInterval(() => {
+/* setInterval(() => {
     tablero.innerHTML = "";
-}, 1000);
-setInterval(crearArreglo, 1000) 
+}, 1000); */
+setInterval(crearArreglo, 1000)
