@@ -19,7 +19,7 @@ function crearArreglo() {
 }
 
 function imprimirArreglo() {
-    let i, o, color;
+    let i, o, color, color1;
     tablero.innerHTML += "<span style='color:#F1C40F'>*</span><br>"
     for (i = 0; i < arregloNav.length; i++) {
         for (o = 0; o < arregloNav.length; o++) {
@@ -28,9 +28,10 @@ function imprimirArreglo() {
             } */
             switch (arregloNav[i][o]) {
                 case "*":
-                    tablero.innerHTML += "<span style='color:" + color + "'>*</span>"
                     color = luces(arregloNav[i].length);
-                    tablero.innerHTML += "<span style='color:" + color + "'>*</span>"
+                    color1 = luces(arregloNav[i].length);
+                    tablero.innerHTML += "<span style='color:" + color + "'>*</span><span style='color:" + color1 + "'>*</span>"
+                    /* tablero.innerHTML += "<span style='color:" + color + "'>*</span>" */
                     break;
                 case "|":
                     tablero.innerHTML += "<span style='background-color:#AF601A; color:#AF601A'>|</span>"
