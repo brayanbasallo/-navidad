@@ -14,6 +14,10 @@ body {
     z-index: -2;
 }
 
+.ocultar{
+    display: none;
+}
+
 #tablero {
     margin: auto;
     text-align: center;
@@ -32,7 +36,11 @@ body {
     margin: 0%;
 }
 
-.newyear h1,h6{
+.newyear p {
+    font-size: 12px;
+}
+
+.newyear h1, .newyear h6, .newyear p{
     padding: 0%;
     margin: 0%;
 }
